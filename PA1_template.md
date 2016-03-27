@@ -1,7 +1,10 @@
 ---
-title: "PA1_template.md"
-output: html_document
-output: md_document
+title: "Reproducible Research"
+output: 
+  html_document: 
+    fig_caption: yes
+    highlight: pygments
+    theme: cerulean
 ---
 
 Load required libraries
@@ -159,5 +162,6 @@ xyplot(Mean ~ Interval | DayType, wkd,
        layout=c(1,2))
 
 ```
+
 
 
